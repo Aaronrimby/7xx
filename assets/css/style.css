@@ -16,6 +16,7 @@ body {
     background-color: aliceblue;
     border-radius: 45%;
     margin: auto auto;
+<<<<<<< HEAD
 }
 
 .hat {
@@ -42,6 +43,8 @@ body {
     bottom: -60px;
     z-index: 10;
     width: 50%;
+=======
+>>>>>>> 700-1
 }
 <<<<<<< HEAD
 =======
@@ -55,10 +58,7 @@ body {
     position: absolute;
     top: -70px;
     left: 22px;
-    
-    
 }
-
 .brim {
     background-color: black;
     width: 120px;
@@ -67,48 +67,57 @@ body {
     position: absolute;
     top: 70px;
     left: -20px;
-    
 }
-
+.snHead {
+    position: relative;
+    bottom: -60px;
+    z-index: 10;
+    width: 50%;
+}
+.snBody {
+    width: 70%;
+    height: 200px;
+    position: relative;
+    bottom: -40px;
+    z-index: 9;
+}
+    
+    .snFeet {
+    width: 250px;
+    height: 300px;
+    z-index: 8;
+    margin-bottom: -40px;
+}
 .face {
     margin: 40px auto;
     height: 30px;
     position: relative;
-    width: 50%;
-    
+    width: 50%
 }
-
 .eye, .nose, .mouth {
     border: thin #000 solid;
     width: 20px;
     height: 15px;
     background-color: black;
     border-radius: 45%;
-    
 }
-
 .leye {
-    float: left
+    float: left;
 }
-
 .reye {
-    float: right
+    float: right;
 }
-
 .nose, .mouth {
     clear: both;
     margin: auto;
-    
 }
-
 .nose {
     margin-top: 20px;
-    height: 30px;
-    
+    height: 30px
 }
-
-.mouth{
+.mouth {
     margin-top: 10px;
+<<<<<<< HEAD
     width: 50px;
     
 }
@@ -156,5 +165,7 @@ body {
 }
 .mouth {
     margin-top: 10px;
+=======
+>>>>>>> 700-1
     width: 50px
 }
